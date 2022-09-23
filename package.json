@@ -1,0 +1,33 @@
+{
+  "name": "jest-the-beginning-react",
+  "jest": {
+    "verbose": true,
+    "reporters": [
+      "default",
+      ["./node_modules/jest-html-reporter", {
+        "pageTitle": "Test Report"
+      }]
+    ]
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "declareWinner.js",
+  "scripts": {
+    "test": "jest --watch --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyorizsuzs/jest-the-beginning-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyorizsuzs/jest-the-beginning-react/issues"
+  },
+  "homepage": "https://github.com/gyorizsuzs/jest-the-beginning-react#readme",
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "jest-html-reporter": "^3.7.0"
+  }
+}
