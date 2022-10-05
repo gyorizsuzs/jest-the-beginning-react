@@ -1,24 +1,25 @@
-import {
-  reverseNumber,
-  isPalindrome,
-  palindromeChainLength,
-} from './palindromeChainLength';
+const palindromeChainLength = require('./palindromeChainLength');
 
-test('entering "" should return ""', () => {
-  expect(reverseNumber('')).toBe('');
+test('entering 123 should return 321', () => {
+  expect(palindromeChainLength.reverseNumber(123)).toBe(321);
 });
-test('entering "" should return ""', () => {
-  expect(isPalindrome('')).toBe('');
+test('entering 121 should return true', () => {
+  expect(palindromeChainLength.isPalindrome(121)).toBe(true);
 });
-test('takes 0 iterations to get a palindrome', () => {
-  expect(palindromeChainLength('')).toBe('');
+test('entering 123 should return false', () => {
+  expect(palindromeChainLength.isPalindrome(123)).toBe(false);
 });
-test('takes 1 iterations to get a palindrome', () => {
-  expect(palindromeChainLength('')).toBe('');
+test('entering 121 should return 0', () => {
+  expect(palindromeChainLength.palindromeChainLength(121)).toBe(0);
 });
-test('takes a large number of iterations to get a palindrome', () => {
-  expect(palindromeChainLength('')).toBe('');
+test('entering 56 should return 1', () => {
+  expect(palindromeChainLength.palindromeChainLength(56)).toBe(1);
 });
-test('should first', () => {
-  expect('').toBe('');
+test('entering 89 should return 24', () => {
+  expect(palindromeChainLength.palindromeChainLength(89)).toBe(24);
+});
+test('entering 196 should return  Number is too big or a Lychrel number!', () => {
+  expect(() => palindromeChainLength.palindromeChainLength(196)).toThrow(
+    'Number is too big or a Lychrel number!'
+  );
 });

@@ -1,65 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1663942697379" clover="3.2.0">
-  <project timestamp="1663942697379" name="All files">
-    <metrics statements="47" coveredstatements="47" conditionals="26" coveredconditionals="26" methods="6" coveredmethods="6" elements="79" coveredelements="79" complexity="0" loc="47" ncloc="47" packages="1" files="4" classes="4"/>
-    <file name="declareWinner.js" path="/Users/zsuzsannagyori/Documents/Codecool/projects/jest-the-beginning-react/declareWinner.js">
-      <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
-      <line num="5" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="7" count="2" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="13" count="3" type="stmt"/>
-      <line num="14" count="22" type="stmt"/>
-      <line num="16" count="22" type="cond" truecount="2" falsecount="0"/>
-      <line num="17" count="12" type="stmt"/>
-      <line num="19" count="12" type="cond" truecount="2" falsecount="0"/>
-      <line num="20" count="2" type="stmt"/>
-      <line num="23" count="10" type="stmt"/>
-      <line num="25" count="10" type="cond" truecount="2" falsecount="0"/>
-      <line num="26" count="1" type="stmt"/>
-      <line num="32" count="1" type="stmt"/>
-    </file>
-    <file name="findUnique.js" path="/Users/zsuzsannagyori/Documents/Codecool/projects/jest-the-beginning-react/findUnique.js">
-      <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
-      <line num="2" count="4" type="stmt"/>
-      <line num="3" count="4" type="stmt"/>
-      <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="3" type="stmt"/>
-      <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+<coverage generated="1664960687314" clover="3.2.0">
+  <project timestamp="1664960687315" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="28" coveredelements="28" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
+    <file name="palindromeChainLength.js" path="/Users/zsuzsannagyori/Documents/Codecool/projects/jest-the-beginning-react/palindromeChainLength.js">
+      <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <line num="2" count="257" type="stmt"/>
+      <line num="3" count="257" type="stmt"/>
+      <line num="4" count="257" type="stmt"/>
+      <line num="5" count="257" type="stmt"/>
+      <line num="6" count="257" type="stmt"/>
+      <line num="10" count="131" type="stmt"/>
+      <line num="11" count="131" type="stmt"/>
+      <line num="15" count="4" type="cond" truecount="2" falsecount="0"/>
       <line num="16" count="1" type="stmt"/>
-      <line num="20" count="2" type="stmt"/>
-      <line num="22" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="30" count="1" type="stmt"/>
-    </file>
-    <file name="maxDiff.js" path="/Users/zsuzsannagyori/Documents/Codecool/projects/jest-the-beginning-react/maxDiff.js">
-      <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
-      <line num="2" count="5" type="cond" truecount="4" falsecount="0"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="6" count="3" type="stmt"/>
-      <line num="7" count="3" type="stmt"/>
-      <line num="9" count="3" type="stmt"/>
-      <line num="10" count="13" type="stmt"/>
-      <line num="12" count="13" type="cond" truecount="2" falsecount="0"/>
-      <line num="13" count="3" type="stmt"/>
-      <line num="15" count="13" type="cond" truecount="2" falsecount="0"/>
-      <line num="16" count="3" type="stmt"/>
+      <line num="19" count="3" type="stmt"/>
       <line num="20" count="3" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-    </file>
-    <file name="monkeyTalk.js" path="/Users/zsuzsannagyori/Documents/Codecool/projects/jest-the-beginning-react/monkeyTalk.js">
-      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="4" type="stmt"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="1" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="24" count="125" type="stmt"/>
+      <line num="25" count="125" type="stmt"/>
+      <line num="26" count="125" type="stmt"/>
+      <line num="27" count="125" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="2" type="stmt"/>
+      <line num="30" count="123" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
